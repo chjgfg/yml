@@ -14,7 +14,10 @@ spring:
       ddl-auto: update
       dialect: org.hibernate.dialect.MySQLDialect
     database: mysql
-    open-in-view: true
+    open-in-view: true  
+  rabbitmq:
+    addresses: localhost
+
 eureka:
   instance:
     prefer-ip-address: true
