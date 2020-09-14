@@ -8,6 +8,9 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/tensquare_base?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
     username: root
     password: 123456
+  cloud:
+    refresh:
+      refreshable: none   #那个循环的错
   jpa:
     show-sql: true
     hibernate:
